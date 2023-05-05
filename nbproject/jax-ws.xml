@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="serviciopedido">
+      <implementation-class>wspedido.serviciopedido</implementation-class>
+    </service>
+    <service name="servicioentrega">
+      <implementation-class>wsentrega.servicioentrega</implementation-class>
+    </service>
+    <service name="servicioalmacen">
+      <implementation-class>wsalmacen.servicioalmacen</implementation-class>
+    </service>
+  </services>
+  <clients/>
+</jax-ws>
